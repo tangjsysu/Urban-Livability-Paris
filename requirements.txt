@@ -1,0 +1,11 @@
+pandas==2.2.2
+numpy==2.0.2
+openai==1.68.2
+sentence-transformers==3.4.1
+scikit-learn==1.6.1
+scipy==1.14.1
+requests==2.32.3
+pyproj==3.7.1
+folium==0.19.5
+networkx==3.4.2
+geopy==2.4.1
