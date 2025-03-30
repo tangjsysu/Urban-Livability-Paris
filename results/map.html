@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_61f3ae940b42133923a2698ef35c8fbf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_61f3ae940b42133923a2698ef35c8fbf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_61f3ae940b42133923a2698ef35c8fbf = L.map(
+                "map_61f3ae940b42133923a2698ef35c8fbf",
+                {
+                    center: [48.8548256, 2.3661911],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_145b05b24962ac707b4955aee2d35de7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_145b05b24962ac707b4955aee2d35de7.addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+            var marker_25175eefca100cdab52eab534a1e21b5 = L.marker(
+                [48.8548256, 2.3661911],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_83ca85c963b1f55ba7424afa07ab5cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e693b36314ccfa7ff2f7b4d166be4ef = $(`<div id="html_3e693b36314ccfa7ff2f7b4d166be4ef" style="width: 100.0%; height: 100.0%;">Maison de Victor Hugo</div>`)[0];
+                popup_83ca85c963b1f55ba7424afa07ab5cdb.setContent(html_3e693b36314ccfa7ff2f7b4d166be4ef);
+            
+        
+
+        marker_25175eefca100cdab52eab534a1e21b5.bindPopup(popup_83ca85c963b1f55ba7424afa07ab5cdb)
+        ;
+
+        
+    
+    
+            marker_25175eefca100cdab52eab534a1e21b5.bindTooltip(
+                `<div>
+                     Maison de Victor Hugo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_23825770e519a9400e2fa2705a0e2f70 = L.marker(
+                [48.8581977, 2.3647272],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_20c87fcb8e68858b9a3fb84f782923e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37fc19f3e5d8292d33d8a3b480238811 = $(`<div id="html_37fc19f3e5d8292d33d8a3b480238811" style="width: 100.0%; height: 100.0%;">Soc Des Amis Musee Carnavalet</div>`)[0];
+                popup_20c87fcb8e68858b9a3fb84f782923e4.setContent(html_37fc19f3e5d8292d33d8a3b480238811);
+            
+        
+
+        marker_23825770e519a9400e2fa2705a0e2f70.bindPopup(popup_20c87fcb8e68858b9a3fb84f782923e4)
+        ;
+
+        
+    
+    
+            marker_23825770e519a9400e2fa2705a0e2f70.bindTooltip(
+                `<div>
+                     Soc Des Amis Musee Carnavalet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec6bfb74661acfd9e7381cc83beca727 = L.marker(
+                [48.8570669, 2.3628579],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_a013f1a2bcee5d7025b0c99132777f2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c5b85a2477e607740d669826036d3ea = $(`<div id="html_5c5b85a2477e607740d669826036d3ea" style="width: 100.0%; height: 100.0%;">Musee Carnavalet</div>`)[0];
+                popup_a013f1a2bcee5d7025b0c99132777f2a.setContent(html_5c5b85a2477e607740d669826036d3ea);
+            
+        
+
+        marker_ec6bfb74661acfd9e7381cc83beca727.bindPopup(popup_a013f1a2bcee5d7025b0c99132777f2a)
+        ;
+
+        
+    
+    
+            marker_ec6bfb74661acfd9e7381cc83beca727.bindTooltip(
+                `<div>
+                     Musee Carnavalet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2784db17818261668630a44e764034a4 = L.marker(
+                [48.8673708, 2.3384722],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_476efc72bbd6bb7aaa75daa91283e24b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_280246ea85f5728abf979053feafbf99 = $(`<div id="html_280246ea85f5728abf979053feafbf99" style="width: 100.0%; height: 100.0%;">Musee de la BnF</div>`)[0];
+                popup_476efc72bbd6bb7aaa75daa91283e24b.setContent(html_280246ea85f5728abf979053feafbf99);
+            
+        
+
+        marker_2784db17818261668630a44e764034a4.bindPopup(popup_476efc72bbd6bb7aaa75daa91283e24b)
+        ;
+
+        
+    
+    
+            marker_2784db17818261668630a44e764034a4.bindTooltip(
+                `<div>
+                     Musee de la BnF
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a64b8fb688aec1eb744d998599811e70 = L.marker(
+                [48.8655242, 2.3366788],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_e0d4e4d9826fb8905af4f80dcbbbc282 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3cf2871cccdfb3c190435d13ae7edf1 = $(`<div id="html_b3cf2871cccdfb3c190435d13ae7edf1" style="width: 100.0%; height: 100.0%;">Fontaine Molière</div>`)[0];
+                popup_e0d4e4d9826fb8905af4f80dcbbbc282.setContent(html_b3cf2871cccdfb3c190435d13ae7edf1);
+            
+        
+
+        marker_a64b8fb688aec1eb744d998599811e70.bindPopup(popup_e0d4e4d9826fb8905af4f80dcbbbc282)
+        ;
+
+        
+    
+    
+            marker_a64b8fb688aec1eb744d998599811e70.bindTooltip(
+                `<div>
+                     Fontaine Molière
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96681b90531f1b1efc02c68aef1bb3e2 = L.marker(
+                [48.8635708, 2.3359376],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_2f1b8bacad2c0f9156720c05404b134c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_158672dbf40815a940685f93b86dc594 = $(`<div id="html_158672dbf40815a940685f93b86dc594" style="width: 100.0%; height: 100.0%;">Comédie Francaise</div>`)[0];
+                popup_2f1b8bacad2c0f9156720c05404b134c.setContent(html_158672dbf40815a940685f93b86dc594);
+            
+        
+
+        marker_96681b90531f1b1efc02c68aef1bb3e2.bindPopup(popup_2f1b8bacad2c0f9156720c05404b134c)
+        ;
+
+        
+    
+    
+            marker_96681b90531f1b1efc02c68aef1bb3e2.bindTooltip(
+                `<div>
+                     Comédie Francaise
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d94154b31897d707a3ce9413749bb134 = L.marker(
+                [48.8525632, 2.3471303],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_5e0cb8196e493917d6b407bf74bbfeb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a2dde80b8ce93e61bf06c24578bb79f = $(`<div id="html_7a2dde80b8ce93e61bf06c24578bb79f" style="width: 100.0%; height: 100.0%;">Shakespeare and Company</div>`)[0];
+                popup_5e0cb8196e493917d6b407bf74bbfeb0.setContent(html_7a2dde80b8ce93e61bf06c24578bb79f);
+            
+        
+
+        marker_d94154b31897d707a3ce9413749bb134.bindPopup(popup_5e0cb8196e493917d6b407bf74bbfeb0)
+        ;
+
+        
+    
+    
+            marker_d94154b31897d707a3ce9413749bb134.bindTooltip(
+                `<div>
+                     Shakespeare and Company
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbeaf723053615480b1b29e4f1afc6b6 = L.marker(
+                [48.84701219999999, 2.3445019],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_f2fcc5b833efbb6c45027b59ecf0b758 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20ccd65fbf501349d7ffc8da4256f4c8 = $(`<div id="html_20ccd65fbf501349d7ffc8da4256f4c8" style="width: 100.0%; height: 100.0%;">Pantheon-Sorbonne University</div>`)[0];
+                popup_f2fcc5b833efbb6c45027b59ecf0b758.setContent(html_20ccd65fbf501349d7ffc8da4256f4c8);
+            
+        
+
+        marker_dbeaf723053615480b1b29e4f1afc6b6.bindPopup(popup_f2fcc5b833efbb6c45027b59ecf0b758)
+        ;
+
+        
+    
+    
+            marker_dbeaf723053615480b1b29e4f1afc6b6.bindTooltip(
+                `<div>
+                     Pantheon-Sorbonne University
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8e50e5b59a926787acd80ac786fc201 = L.marker(
+                [48.8467224, 2.3458067],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_0b52833a903ded624cf260c682fd41c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d4e675efcc0fd82a1349a0b0590e31d = $(`<div id="html_3d4e675efcc0fd82a1349a0b0590e31d" style="width: 100.0%; height: 100.0%;">Statue de Corneille</div>`)[0];
+                popup_0b52833a903ded624cf260c682fd41c1.setContent(html_3d4e675efcc0fd82a1349a0b0590e31d);
+            
+        
+
+        marker_a8e50e5b59a926787acd80ac786fc201.bindPopup(popup_0b52833a903ded624cf260c682fd41c1)
+        ;
+
+        
+    
+    
+            marker_a8e50e5b59a926787acd80ac786fc201.bindTooltip(
+                `<div>
+                     Statue de Corneille
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a2b8e56f463989e9c622a00928acaf6 = L.marker(
+                [48.84592730000001, 2.3500559],
+                {
+}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+        var popup_4825fbc3e4a614d5a1bf3d22067adca4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2db99ab71dd62ce1c536dbf9f2d24cdb = $(`<div id="html_2db99ab71dd62ce1c536dbf9f2d24cdb" style="width: 100.0%; height: 100.0%;">Wall of Philippe II Augustus</div>`)[0];
+                popup_4825fbc3e4a614d5a1bf3d22067adca4.setContent(html_2db99ab71dd62ce1c536dbf9f2d24cdb);
+            
+        
+
+        marker_2a2b8e56f463989e9c622a00928acaf6.bindPopup(popup_4825fbc3e4a614d5a1bf3d22067adca4)
+        ;
+
+        
+    
+    
+            marker_2a2b8e56f463989e9c622a00928acaf6.bindTooltip(
+                `<div>
+                     Wall of Philippe II Augustus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3232d36c4eceb72108b68a6418a5deea = L.polyline(
+                [[48.8548256, 2.3661911], [48.8581977, 2.3647272], [48.8570669, 2.3628579], [48.8673708, 2.3384722], [48.8655242, 2.3366788], [48.8635708, 2.3359376], [48.8525632, 2.3471303], [48.84701219999999, 2.3445019], [48.8467224, 2.3458067], [48.84592730000001, 2.3500559]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+    
+            tile_layer_145b05b24962ac707b4955aee2d35de7.addTo(map_61f3ae940b42133923a2698ef35c8fbf);
+        
+</script>
+</html>

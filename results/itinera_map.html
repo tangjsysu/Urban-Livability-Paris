@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3453d75812e66fa9f1ee3df009a526e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3453d75812e66fa9f1ee3df009a526e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3453d75812e66fa9f1ee3df009a526e2 = L.map(
+                "map_3453d75812e66fa9f1ee3df009a526e2",
+                {
+                    center: [48.8665914, 2.3400406],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3fcbde94bab90e69635646a9a1758157 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3fcbde94bab90e69635646a9a1758157.addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+            var marker_7f74afaba051b4a485b0cac1b2b4c97c = L.marker(
+                [48.8665914, 2.3400406],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_23f93119f62acdfb048ba50c619892f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4997d1c800146131c59d34b4fe6d68ae = $(`<div id="html_4997d1c800146131c59d34b4fe6d68ae" style="width: 100.0%; height: 100.0%;">Les Passages Couverts de Paris 1</div>`)[0];
+                popup_23f93119f62acdfb048ba50c619892f2.setContent(html_4997d1c800146131c59d34b4fe6d68ae);
+            
+        
+
+        marker_7f74afaba051b4a485b0cac1b2b4c97c.bindPopup(popup_23f93119f62acdfb048ba50c619892f2)
+        ;
+
+        
+    
+    
+            marker_7f74afaba051b4a485b0cac1b2b4c97c.bindTooltip(
+                `<div>
+                     Les Passages Couverts de Paris 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c3cae9b279dd04d43a803c1fe5980e14 = L.marker(
+                [48.8658217, 2.340953],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_a2112d202ddea3c1b1a53e7acab00f0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a2e09d60e6a9b2e5924246b31fd3032 = $(`<div id="html_7a2e09d60e6a9b2e5924246b31fd3032" style="width: 100.0%; height: 100.0%;">Place des Victoires</div>`)[0];
+                popup_a2112d202ddea3c1b1a53e7acab00f0c.setContent(html_7a2e09d60e6a9b2e5924246b31fd3032);
+            
+        
+
+        marker_c3cae9b279dd04d43a803c1fe5980e14.bindPopup(popup_a2112d202ddea3c1b1a53e7acab00f0c)
+        ;
+
+        
+    
+    
+            marker_c3cae9b279dd04d43a803c1fe5980e14.bindTooltip(
+                `<div>
+                     Place des Victoires
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c673fddaf64142b52aea605bb018486 = L.marker(
+                [48.8657591, 2.341196],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_80a6a0aba30ae3a691d0eed1b87e4e9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_917ac3eb076a2ac5ddc9ce8a7f7bf6ae = $(`<div id="html_917ac3eb076a2ac5ddc9ce8a7f7bf6ae" style="width: 100.0%; height: 100.0%;">Statue of Louis XIV</div>`)[0];
+                popup_80a6a0aba30ae3a691d0eed1b87e4e9f.setContent(html_917ac3eb076a2ac5ddc9ce8a7f7bf6ae);
+            
+        
+
+        marker_0c673fddaf64142b52aea605bb018486.bindPopup(popup_80a6a0aba30ae3a691d0eed1b87e4e9f)
+        ;
+
+        
+    
+    
+            marker_0c673fddaf64142b52aea605bb018486.bindTooltip(
+                `<div>
+                     Statue of Louis XIV
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_165e3aa788cb9c2c142b55485defd979 = L.marker(
+                [48.8575837, 2.3469889],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_6cbcd65d2deaf1f5b76c3c033cf9fda2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d84120bb621bcbd207d0e07284e71aea = $(`<div id="html_d84120bb621bcbd207d0e07284e71aea" style="width: 100.0%; height: 100.0%;">Place du Châtelet</div>`)[0];
+                popup_6cbcd65d2deaf1f5b76c3c033cf9fda2.setContent(html_d84120bb621bcbd207d0e07284e71aea);
+            
+        
+
+        marker_165e3aa788cb9c2c142b55485defd979.bindPopup(popup_6cbcd65d2deaf1f5b76c3c033cf9fda2)
+        ;
+
+        
+    
+    
+            marker_165e3aa788cb9c2c142b55485defd979.bindTooltip(
+                `<div>
+                     Place du Châtelet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a7ccc4424acfb442e13e50bbd1e58862 = L.marker(
+                [48.8575475, 2.3513765],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_fd02fc81c8d72a92ec05aa950c903a09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_384fd070b29f8ea5a32fed5a07e9fe3d = $(`<div id="html_384fd070b29f8ea5a32fed5a07e9fe3d" style="width: 100.0%; height: 100.0%;">Centre des monuments nationaux</div>`)[0];
+                popup_fd02fc81c8d72a92ec05aa950c903a09.setContent(html_384fd070b29f8ea5a32fed5a07e9fe3d);
+            
+        
+
+        marker_a7ccc4424acfb442e13e50bbd1e58862.bindPopup(popup_fd02fc81c8d72a92ec05aa950c903a09)
+        ;
+
+        
+    
+    
+            marker_a7ccc4424acfb442e13e50bbd1e58862.bindTooltip(
+                `<div>
+                     Centre des monuments nationaux
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ff7e7f87ecb17e348242cc42ce78516 = L.marker(
+                [48.8575475, 2.3513765],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_5f97603e106c0e763ef8809ac11e2549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_866484e10bb8484e45507b31a0c6a3cb = $(`<div id="html_866484e10bb8484e45507b31a0c6a3cb" style="width: 100.0%; height: 100.0%;">Place Camille Jullian</div>`)[0];
+                popup_5f97603e106c0e763ef8809ac11e2549.setContent(html_866484e10bb8484e45507b31a0c6a3cb);
+            
+        
+
+        marker_8ff7e7f87ecb17e348242cc42ce78516.bindPopup(popup_5f97603e106c0e763ef8809ac11e2549)
+        ;
+
+        
+    
+    
+            marker_8ff7e7f87ecb17e348242cc42ce78516.bindTooltip(
+                `<div>
+                     Place Camille Jullian
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_63a4085ba4bb9256fde833fbf6a4167c = L.marker(
+                [48.8581977, 2.3647272],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_43ffba4ccd2913a77a9574390cf61602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dba8964dbbb62fbf479b0f28b3cf8576 = $(`<div id="html_dba8964dbbb62fbf479b0f28b3cf8576" style="width: 100.0%; height: 100.0%;">Soc Des Amis Musee Carnavalet</div>`)[0];
+                popup_43ffba4ccd2913a77a9574390cf61602.setContent(html_dba8964dbbb62fbf479b0f28b3cf8576);
+            
+        
+
+        marker_63a4085ba4bb9256fde833fbf6a4167c.bindPopup(popup_43ffba4ccd2913a77a9574390cf61602)
+        ;
+
+        
+    
+    
+            marker_63a4085ba4bb9256fde833fbf6a4167c.bindTooltip(
+                `<div>
+                     Soc Des Amis Musee Carnavalet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3821578662fee14e604171c1e0fd12f4 = L.marker(
+                [48.8525007, 2.3694154],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_7c757fc6fbf39abab0ff1b095914507d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2471bfe42ff7ea5bb361295f5065bded = $(`<div id="html_2471bfe42ff7ea5bb361295f5065bded" style="width: 100.0%; height: 100.0%;">Place de la Bastille</div>`)[0];
+                popup_7c757fc6fbf39abab0ff1b095914507d.setContent(html_2471bfe42ff7ea5bb361295f5065bded);
+            
+        
+
+        marker_3821578662fee14e604171c1e0fd12f4.bindPopup(popup_7c757fc6fbf39abab0ff1b095914507d)
+        ;
+
+        
+    
+    
+            marker_3821578662fee14e604171c1e0fd12f4.bindTooltip(
+                `<div>
+                     Place de la Bastille
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98c84e9aa08e31f91cec19d15ab3cb46 = L.marker(
+                [48.85109569999999, 2.361728],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_0b8d9b6b2805e2a0d2bf375c05ea499a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abd57536c420e6f9a06cfb1d6df919a4 = $(`<div id="html_abd57536c420e6f9a06cfb1d6df919a4" style="width: 100.0%; height: 100.0%;">Remains of the Bastille</div>`)[0];
+                popup_0b8d9b6b2805e2a0d2bf375c05ea499a.setContent(html_abd57536c420e6f9a06cfb1d6df919a4);
+            
+        
+
+        marker_98c84e9aa08e31f91cec19d15ab3cb46.bindPopup(popup_0b8d9b6b2805e2a0d2bf375c05ea499a)
+        ;
+
+        
+    
+    
+            marker_98c84e9aa08e31f91cec19d15ab3cb46.bindTooltip(
+                `<div>
+                     Remains of the Bastille
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ec14ae886481e62ba75349d79ee6f70 = L.marker(
+                [48.852024, 2.3521987],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_78f168a85941ceec8ec605c6d42c0da2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2791c0ca41b55e46c7630fbc66ad0c51 = $(`<div id="html_2791c0ca41b55e46c7630fbc66ad0c51" style="width: 100.0%; height: 100.0%;">Square de l’Île de France</div>`)[0];
+                popup_78f168a85941ceec8ec605c6d42c0da2.setContent(html_2791c0ca41b55e46c7630fbc66ad0c51);
+            
+        
+
+        marker_5ec14ae886481e62ba75349d79ee6f70.bindPopup(popup_78f168a85941ceec8ec605c6d42c0da2)
+        ;
+
+        
+    
+    
+            marker_5ec14ae886481e62ba75349d79ee6f70.bindTooltip(
+                `<div>
+                     Square de l’Île de France
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e288955545c631d1c9ab574b8904257 = L.marker(
+                [48.8525632, 2.3471303],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_70650b9e8423accabc1b1a17e5f887b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1329b3059a2fba251167e243a48e9a4 = $(`<div id="html_d1329b3059a2fba251167e243a48e9a4" style="width: 100.0%; height: 100.0%;">Shakespeare and Company</div>`)[0];
+                popup_70650b9e8423accabc1b1a17e5f887b3.setContent(html_d1329b3059a2fba251167e243a48e9a4);
+            
+        
+
+        marker_4e288955545c631d1c9ab574b8904257.bindPopup(popup_70650b9e8423accabc1b1a17e5f887b3)
+        ;
+
+        
+    
+    
+            marker_4e288955545c631d1c9ab574b8904257.bindTooltip(
+                `<div>
+                     Shakespeare and Company
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3c7194141c8c9a1472b61b18a3fe9f81 = L.marker(
+                [48.8563071, 2.3496034],
+                {
+}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+        var popup_71aa76b1b67bcbf074ba838b92e6ec12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d03a6dd959bf296be24cc565d6fd9e75 = $(`<div id="html_d03a6dd959bf296be24cc565d6fd9e75" style="width: 100.0%; height: 100.0%;">Les Bouquinistes de la Seine</div>`)[0];
+                popup_71aa76b1b67bcbf074ba838b92e6ec12.setContent(html_d03a6dd959bf296be24cc565d6fd9e75);
+            
+        
+
+        marker_3c7194141c8c9a1472b61b18a3fe9f81.bindPopup(popup_71aa76b1b67bcbf074ba838b92e6ec12)
+        ;
+
+        
+    
+    
+            marker_3c7194141c8c9a1472b61b18a3fe9f81.bindTooltip(
+                `<div>
+                     Les Bouquinistes de la Seine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b38460cd6edce12e1bd089ce83c7fb5c = L.polyline(
+                [[48.8665914, 2.3400406], [48.8658217, 2.340953], [48.8657591, 2.341196], [48.8575837, 2.3469889], [48.8575475, 2.3513765], [48.8575475, 2.3513765], [48.8581977, 2.3647272], [48.8525007, 2.3694154], [48.85109569999999, 2.361728], [48.852024, 2.3521987], [48.8525632, 2.3471303], [48.8563071, 2.3496034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+    
+            tile_layer_3fcbde94bab90e69635646a9a1758157.addTo(map_3453d75812e66fa9f1ee3df009a526e2);
+        
+</script>
+</html>
